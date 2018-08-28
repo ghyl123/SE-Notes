@@ -9,6 +9,8 @@ virtualenv 是 Python 的虚拟环境，可以在同一台 PC 上隔离不同的
 	- `# source env_dir/bin/activate`(Linux)
 4. 退出虚拟环境： `deactivate`
 
+> Note：python3 中有内置的虚拟环境，使用`python -m venv [环境名]`命令即可创建
+
 ## 需求文件的创建及使用
 
 Python项目中往往必须包含一个 requirements.txt 文件，用于记录所有依赖包及其精确的版本号，以便在新环境中部署。
